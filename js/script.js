@@ -3,10 +3,6 @@ const btnMenos = document.querySelector('#btn')
 const meGusta = document.getElementById('contadorPositivo')
 const noMeGusta = document.getElementById('contadorNegativo')
 
-const like = () => {
-    
-}
-
 btnMas.onclick = () =>{
     let contador = meGusta.innerText
     contador++

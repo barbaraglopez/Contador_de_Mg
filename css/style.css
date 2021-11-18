@@ -25,7 +25,7 @@
     width: 40%;
     height: 50%;
     background-color:white;
-    border-radius: 20px;
+    border-radius: 12px;
     box-shadow: 2px 10px 10px 2px black;
 }
 
@@ -50,10 +50,26 @@
 
 .btn{
     margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: black;
     padding: 8px;
     border-radius: 10px;
     transition: all 0.2s;
+}
+
+.btn .unlike{
+    transform: rotateX(180deg);
+    height: 50%;
+    width: 17%;
+    margin-right: 5px;
+}
+
+.btn .like{
+    height: 50%;
+    width: 19%;
+    margin-right: 5px;
 }
 
 #contadorPositivo, #contadorNegativo{
@@ -63,4 +79,5 @@
 .btn:hover{
     color: black;
     background-color: blanchedalmond;
+    cursor: pointer;
 }
